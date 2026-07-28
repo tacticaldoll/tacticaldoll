@@ -1,0 +1,44 @@
+{
+  "user": {
+    "login": "tacticaldoll",
+    "public_repos": 4
+  },
+  "repos": [
+    {
+      "name": "tianheng",
+      "fork": false,
+      "archived": false,
+      "language": "Rust",
+      "stargazers_count": 3,
+      "pushed_at": "2026-07-20T00:00:00Z",
+      "description": "Architecture governance as executable constraints."
+    },
+    {
+      "name": "fornax",
+      "fork": false,
+      "archived": false,
+      "language": "Python",
+      "stargazers_count": 2,
+      "pushed_at": "2026-06-20T00:00:00Z",
+      "description": "Focused workflows for engineering agents."
+    },
+    {
+      "name": "worklane",
+      "fork": false,
+      "archived": false,
+      "language": "Rust",
+      "stargazers_count": 1,
+      "pushed_at": "2026-01-01T00:00:00Z",
+      "description": "Reliable execution lanes for development work."
+    },
+    {
+      "name": "tacticaldoll",
+      "fork": false,
+      "archived": false,
+      "language": null,
+      "stargazers_count": 0,
+      "pushed_at": "2026-07-28T00:00:00Z",
+      "description": null
+    }
+  ]
+}

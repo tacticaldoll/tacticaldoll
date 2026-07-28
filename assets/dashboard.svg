@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="735" viewBox="0 0 1000 735" role="img" aria-labelledby="title desc">
+  <title id="title">FIELD LAB operations dashboard</title>
+  <desc id="desc">An automated overview of public repositories and engineering principles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09131d"/>
+      <stop offset="1" stop-color="#0d1b26"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#183246" stroke-width="1" opacity=".35"/>
+    </pattern>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .panel { fill: #102330; stroke: #234358; stroke-width: 1; }
+      .eyebrow, .label, .status { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }
+      .eyebrow, .accent { fill: #55d6be; }
+      .title { fill: #e7f6f2; font-size: 38px; font-weight: 750; }
+      .subtitle { fill: #8ca6b5; font-size: 13px; letter-spacing: 2px; }
+      .label, .lang { fill: #7892a6; }
+      .metric { fill: #e7f6f2; font-size: 28px; font-weight: 750; }
+      .note { fill: #7892a6; font-size: 12px; }
+      .section { fill: #55d6be; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; }
+      .repo { fill: #e7f6f2; font-size: 15px; font-weight: 700; }
+      .lang, .description { font-size: 12px; }
+      .description { fill: #a9bdc8; }
+      .doctrine { fill: #c5d7dd; font-size: 11px; letter-spacing: .2px; }
+      .footer { fill: #617b8b; font-size: 11px; }
+    </style>
+  </defs>
+  <rect width="1000" height="735" rx="14" fill="url(#bg)"/>
+  <rect width="1000" height="735" rx="14" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="733" rx="13" fill="none" stroke="#29495d"/>
+
+  <g transform="translate(52 48)">
+    <text class="eyebrow">EXPERIMENT CONTROL PLANE // tacticaldoll</text>
+    <text y="54" class="title">FIELD LAB</text>
+    <text y="84" class="subtitle">ARCHITECTURE · INFRASTRUCTURE · AGENT SYSTEMS</text>
+    <g transform="translate(824 24)">
+      <circle r="23" fill="#102f31" stroke="#55d6be"/>
+      <circle r="7" fill="#54e38e"/>
+      <text x="-44" y="51" class="status" fill="#54e38e">TELEMETRY ONLINE</text>
+    </g>
+  </g>
+
+  <line x1="52" y1="170" x2="948" y2="170" stroke="#234358"/>
+
+    <g transform="translate(52 205)">
+      <rect width="214" height="94" rx="8" class="panel"/>
+      <text x="18" y="25" class="label">PUBLIC REPOS</text>
+      <text x="18" y="61" class="metric">21</text>
+      <text x="108" y="61" class="note">reachable</text>
+    </g>
+    <g transform="translate(278 205)">
+      <rect width="214" height="94" rx="8" class="panel"/>
+      <text x="18" y="25" class="label">ACTIVE / 90D</text>
+      <text x="18" y="61" class="metric">20</text>
+      <text x="108" y="61" class="note">signals</text>
+    </g>
+    <g transform="translate(504 205)">
+      <rect width="214" height="94" rx="8" class="panel"/>
+      <text x="18" y="25" class="label">TOTAL STARS</text>
+      <text x="18" y="61" class="metric">0</text>
+      <text x="108" y="61" class="note">received</text>
+    </g>
+    <g transform="translate(730 205)">
+      <rect width="214" height="94" rx="8" class="panel"/>
+      <text x="18" y="25" class="label">PRIMARY STACK</text>
+      <text x="18" y="61" class="metric">Rust</text>
+      <text x="108" y="61" class="note">by repo</text>
+    </g>
+
+  <text x="52" y="338" class="section">SERVICE REGISTRY</text>
+  <text x="948" y="338" text-anchor="end" class="label">STATE FROM LAST PUSH</text>
+
+      <g transform="translate(52 365)">
+        <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
+        <text x="22" y="0" class="repo">tianheng</text>
+        <text x="212" y="0" class="lang">Rust</text>
+        <text x="302" y="0" class="description">Reactive architectural governance for Rust — declare boundari…</text>
+        <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
+      </g>
+      <g transform="translate(52 415)">
+        <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
+        <text x="22" y="0" class="repo">fornax</text>
+        <text x="212" y="0" class="lang">Python</text>
+        <text x="302" y="0" class="description">Portable, single-purpose skills for coding agents that orient…</text>
+        <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
+      </g>
+      <g transform="translate(52 465)">
+        <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
+        <text x="22" y="0" class="repo">velkren</text>
+        <text x="212" y="0" class="lang">TypeScript</text>
+        <text x="302" y="0" class="description">An explicit, composable browser-side UI runtime — framework-i…</text>
+        <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
+      </g>
+      <g transform="translate(52 515)">
+        <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
+        <text x="22" y="0" class="repo">worklane</text>
+        <text x="212" y="0" class="lang">Rust</text>
+        <text x="302" y="0" class="description">Conformance-verified typed background jobs for Rust — retries…</text>
+        <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
+      </g>
+      <g transform="translate(52 565)">
+        <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
+        <text x="22" y="0" class="repo">pacta</text>
+        <text x="212" y="0" class="lang">Rust</text>
+        <text x="302" y="0" class="description">A thin, durable lifecycle contract you compose — a sans-I/O R…</text>
+        <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
+      </g>
+      <g transform="translate(52 615)">
+        <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
+        <text x="22" y="0" class="repo">suunta</text>
+        <text x="212" y="0" class="lang">Rust</text>
+        <text x="302" y="0" class="description">A thin, sans-I/O convergence-planning core for Rust: filters…</text>
+        <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
+      </g>
+
+  <g transform="translate(52 672)">
+    <rect width="896" height="34" rx="6" fill="#0b1822" stroke="#234358"/>
+    <text x="16" y="22" class="doctrine"><tspan class="accent">OPERATOR DOCTRINE  </tspan>Reaction over instruction  /  Semantics stay with the domain  /  Bound authority  /  Make failure inspectable</text>
+  </g>
+  <text x="52" y="720" class="footer">AUTOMATED SNAPSHOT · 2026-07-28 23:04 CST</text>
+  <text x="948" y="720" text-anchor="end" class="footer">SOURCE: GITHUB PUBLIC API</text>
+</svg>

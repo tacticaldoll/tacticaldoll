@@ -1,0 +1,22 @@
+{
+  "username": "tacticaldoll",
+  "eyebrow": "EXPERIMENT CONTROL PLANE",
+  "title": "FIELD LAB",
+  "subtitle": "ARCHITECTURE · INFRASTRUCTURE · AGENT SYSTEMS",
+  "timezone": "Asia/Taipei",
+  "active_days": 90,
+  "featured": [
+    "tianheng",
+    "fornax",
+    "velkren",
+    "worklane",
+    "pacta",
+    "suunta"
+  ],
+  "doctrine": [
+    "Reaction over instruction",
+    "Semantics stay with the domain",
+    "Bound authority",
+    "Make failure inspectable"
+  ]
+}
