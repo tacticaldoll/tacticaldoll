@@ -104,14 +104,14 @@
         <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
         <text x="22" y="0" class="repo">pacta</text>
         <text x="212" y="0" class="lang">Rust</text>
-        <text x="302" y="0" class="description">A thin, durable lifecycle contract you compose — a sans-I/O R…</text>
+        <text x="302" y="0" class="description">A thin, durable pact-execution kernel: sans-I/O lifecycle con…</text>
         <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
       </g>
       <g transform="translate(52 615)">
         <circle cx="7" cy="-5" r="5" fill="#54e38e"/>
         <text x="22" y="0" class="repo">suunta</text>
         <text x="212" y="0" class="lang">Rust</text>
-        <text x="302" y="0" class="description">A thin, sans-I/O convergence-planning core for Rust: filters…</text>
+        <text x="302" y="0" class="description">A thin, sans-I/O convergence-planning core: residual correcti…</text>
         <text x="842" y="0" text-anchor="end" class="status" fill="#54e38e">LIVE</text>
       </g>
 
@@ -119,6 +119,6 @@
     <rect width="896" height="34" rx="6" fill="#0b1822" stroke="#234358"/>
     <text x="16" y="22" class="doctrine"><tspan class="accent">OPERATOR DOCTRINE  </tspan>Reaction over instruction  /  Semantics stay with the domain  /  Bound authority  /  Make failure inspectable</text>
   </g>
-  <text x="52" y="720" class="footer">AUTOMATED SNAPSHOT · 2026-07-31 12:37 CST</text>
+  <text x="52" y="720" class="footer">AUTOMATED SNAPSHOT · 2026-08-01 12:34 CST</text>
   <text x="948" y="720" text-anchor="end" class="footer">SOURCE: GITHUB PUBLIC API</text>
 </svg>
