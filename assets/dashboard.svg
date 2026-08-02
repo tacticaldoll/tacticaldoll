@@ -47,13 +47,13 @@
     <g transform="translate(52 205)">
       <rect width="214" height="94" rx="8" class="panel"/>
       <text x="18" y="25" class="label">PUBLIC REPOS</text>
-      <text x="18" y="61" class="metric">23</text>
+      <text x="18" y="61" class="metric">24</text>
       <text x="108" y="61" class="note">reachable</text>
     </g>
     <g transform="translate(278 205)">
       <rect width="214" height="94" rx="8" class="panel"/>
       <text x="18" y="25" class="label">ACTIVE / 90D</text>
-      <text x="18" y="61" class="metric">22</text>
+      <text x="18" y="61" class="metric">23</text>
       <text x="108" y="61" class="note">signals</text>
     </g>
     <g transform="translate(504 205)">
@@ -119,6 +119,6 @@
     <rect width="896" height="34" rx="6" fill="#0b1822" stroke="#234358"/>
     <text x="16" y="22" class="doctrine"><tspan class="accent">OPERATOR DOCTRINE  </tspan>Reaction over instruction  /  Semantics stay with the domain  /  Bound authority  /  Make failure inspectable</text>
   </g>
-  <text x="52" y="720" class="footer">AUTOMATED SNAPSHOT · 2026-08-01 12:34 CST</text>
+  <text x="52" y="720" class="footer">AUTOMATED SNAPSHOT · 2026-08-02 12:35 CST</text>
   <text x="948" y="720" text-anchor="end" class="footer">SOURCE: GITHUB PUBLIC API</text>
 </svg>
